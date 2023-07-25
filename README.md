@@ -1,5 +1,3 @@
-## Authors
-Rohit M Patil
 
 ## Description
 Implementation of A* algorithm on a differential drive (non-holonomic) TurtleBot robot. Navigate a differential drive robot (TurtleBot) in a given  map environment from a given start point to a given goal point. Considered differential drive constraints while implementing the A* algorithm, with 8 set of action space. Checks the feasibility of all inputs/outputs (if user gives start and goal nodes that are in the obstacle space they will be informed by a message and they should try again). Code outputs an animation/video of optimal path generation between start and goal point on the map. It shows both the node exploration as well as the optimal path generated.
